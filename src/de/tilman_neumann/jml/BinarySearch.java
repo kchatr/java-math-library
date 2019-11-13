@@ -30,15 +30,15 @@ public class BinarySearch {
 	private static final boolean DEBUG = false;
 	
 	/**
-	 * Find the insert position for x into array given that array is sorted bottom-up.
+	 * Finds the insert position for x into array given that array is sorted bottom-up.
 	 * 
 	 * More precisely:
 	 * If array[maxIndex-1] >  x, return the index of the first entry of array[0].. array[maxIndex-1] greater than x.
 	 * If array[maxIndex-1] <= x, return maxIndex.
 	 * 
-	 * @param array
-	 * @param maxIndex the maximum index to consider, exclusive (may be smaller than the array size)
-	 * @param x
+	 * @param array: the array which is being searched
+	 * @param maxIndex: the maximum index to consider, exclusive (may be smaller than the array size)
+	 * @param x: the integer which we're trying to find in int[] array.
 	 * @return the insert position
 	 */
 	public int getInsertPosition(int[] array, int maxIndex, int x) {
